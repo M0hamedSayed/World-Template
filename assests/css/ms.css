@@ -1,0 +1,204 @@
+/*!
+ * M.S >>> css Library   v1.0.0
+ *
+ * Copyright (c) 2021 Mohamed Sayed
+ */
+
+/*
+    w >> width
+    txt >> text
+        -c >> center
+    c >> container
+    i >> item
+    f >> flex
+        -wr >> wrap
+    ver >> vertical
+        -c >> center
+        -e >> end
+        -b >> base
+    hor >> horizontal
+        -c >> center
+        -a >> around
+        -b >> between
+        -e >> evenly
+*/
+
+/*width*/
+
+.w-1 {
+    width: 10%;
+}
+
+.w-2 {
+    width: 20%;
+}
+
+.w-3 {
+    width: 30%;
+}
+
+.w-33 {
+    width: 33.333333333333333%;
+}
+
+.w-4 {
+    width: 40%;
+}
+
+.w-5 {
+    width: 50%;
+}
+
+.w-6 {
+    width: 60%;
+}
+
+.w-66 {
+    width: 66.66666666666666666%;
+}
+
+.w-7 {
+    width: 70%;
+}
+
+.w-8 {
+    width: 80%;
+}
+
+.w-9 {
+    width: 90%;
+}
+
+.w-10 {
+    width: 100%;
+}
+
+/*flex*/
+
+.f_c {
+    display: flex;
+}
+
+/*wrap items*/
+
+.f-wr {
+    flex-wrap: wrap;
+}
+
+/*vertical alignment*/
+
+.f_ver-c {
+    align-items: center;
+}
+
+.f_ver-e {
+    align-items: flex-end;
+}
+
+.f_ver-b {
+    align-items: baseline;
+}
+
+/*horizontal alignment*/
+
+.f_hor-c {
+    justify-content: center;
+}
+
+.f_hor-a {
+    justify-content: space-around;
+}
+
+.f_hor-b {
+    justify-content: space-between;
+}
+
+.f_hor-e {
+    justify-content: space-evenly;
+}
+
+/*content*/
+
+.f_cntnt {
+    align-content: space-between;
+}
+
+/*text align*/
+
+.txt-c {
+    text-align: center;
+}
+
+/*align items horizontally*/
+
+.mrg {
+    margin: auto;
+}
+
+/*------------------------------------*\
+  $Header Style
+\*------------------------------------*/
+
+.hdr {
+    position: fixed;
+    /* if sticky is not supported in browsers*/
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/*------------------------------------*\
+  $Essential Style 
+\*------------------------------------*/
+
+a, a:hover {
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button, input, textarea, input:focus, textarea:focus {
+    outline: none;
+    border: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*------------------------------------*\
+  $CUSTOM Colors
+\*------------------------------------*/
+
+/*background color */
+
+.bg_clr-primary {
+    background-color: var(--bg-color-primary);
+}
+
+.bg_clr-primary2 {
+    background-color: var(--bg-color-primary2);
+}
+
+/*font colors*/
+
+.clr-primary {
+    color: var(--color-primary);
+}
+
+.clr-primary2 {
+    color: var(--color-primary2);
+}
+
+.clr-primary3 {
+    color: var(--color-primary3);
+}
+
+.clr-black {
+    color: var(--color-black);
+}
+
+.clr-white {
+    color: var(--color-white);
+}

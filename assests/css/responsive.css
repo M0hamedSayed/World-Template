@@ -1,0 +1,86 @@
+/* @screen width 1920 px  for support 2k , 4k screen*/
+
+@media only screen and (min-width: 1920px) {
+    .w-8 {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .w-6 {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1320px) {
+    .w-6, .w-8 {
+        width: 90%;
+    }
+    .slider>div:last-child {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .w-66 {
+        width: 100%;
+    }
+    .w-3 {
+        width: 80%;
+    }
+    .burger__label {
+        display: block;
+        padding: var(--padding);
+    }
+    .right_nav>li>a, .right_nav li:last-child {
+        padding: var(--padding);
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .hide {
+        left: 15%;
+    }
+    .w-5 {
+        margin-bottom: var(--padding);
+        width: 100%;
+    }
+    .atricles_container {
+        flex-wrap: wrap-reverse;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .latest_content .img_poster {
+        width: 100%;
+    }
+    .latest_content>div>div {
+        width: 100%;
+    }
+    .latest_content>div {
+        flex-wrap: wrap;
+    }
+    .latest_content .w-66 {
+        padding: calc(var(--padding)*2);
+    }
+    .hide {
+        min-width: 100%;
+        left: 0;
+    }
+    .w-3 {
+        width: 100%;
+    }
+    input.checkbox:checked~input.search_txt_input {
+        width: 200px;
+    }
+    input.checkbox:checked {
+        left: 232px;
+    }
+}
